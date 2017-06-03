@@ -1,63 +1,68 @@
 header
-	.logo
-		+clearfix
-		+gradient(90deg, #36D8D0 , #085e60)
-		margin: 0px 0px 0px 0px
-		img
-			+img-responsive
-			+make-xs-column-offset(3)
-			+make-sm-column-offset(3)
-			+make-md-column-offset(3)
-			+make-xs-column(6)
-			+make-sm-column(6)
-			+make-md-column(6)
-
-			
-	nav
-		+make-row
+	.container-fluid
+		
+		+make-xs-column(12)
+		+make-sm-column(12)
+		+make-md-column(12)
 		padding: 0px
-		margin: 0px
-		background:
-			color: rgba(255,255,255,0.5)
-		padding: 20px 0px 0px 0px
-		ul
-			+make-md-column(12)
-			padding: 0px
+		margin-bottom: 110px
+		.logo
+			+clearfix
+			+gradient(90deg, #36D8D0 , #085e60)
+			margin: 0px 0px 0px 0px
+			background-attachment: fixed
+			img
+				+img-responsive
+				+make-xs-column-offset(0)
+				+make-sm-column-offset(1)
+				+make-md-column-offset(3)
+				+make-xs-column(12)
+				+make-sm-column(10)
+				+make-md-column(6)
+
+				
+		nav
+			+breakpoint(max-width 790px)
+				display: none
+			+make-row
+
 			margin: 0px
-			.primeira
-				max-width: 70px
-				+make-xs-column-offset(0)
-				+make-sm-column-offset(1.7)
-				+make-md-column-offset(2)
-				+make-md-column(1)
+			background:
+				color: rgba(255,255,255,0.5)
+			padding: 20px 0px 10px 0px
+			ul
+				+make-md-column(12)
+				padding: 0px
 				margin: 0px
-
-				
-			li
-
-				margin: 13px 0px
-				display: inline-block
-				color:black
-				+make-xs-column-offset(0)
-				+make-sm-column-offset(0)
-				+make-md-column-offset(0)
-				+make-xs-column(2)
-				+make-sm-column(2)
-				+make-md-column(2)
-				
-				
-				
 			
-				
-				
-				a
 
-					color: #000
-					font-family: Prompt
-					+font-size(25px)
-					border: solid 0.5px
-					border-radius: 5%
-					padding: 10px
+					
+				li
+
+					margin: 13px 0px
+					display: inline-block
+					color:black
+					+make-xs-column-offset(1)
+					+make-sm-column-offset(1)
+					+make-md-column-offset(1)
+					+make-xs-column(2)
+					+make-sm-column(2)
+					+make-md-column(2)
+					
+					
+					
+				
+					
+					
+					a
+
+						color: #000
+						font-family: Prompt
+						+font-size(25px)
+						border: solid 0.5px
+						border-radius: 5%
+						padding: 10px
+
 					 
 
 					

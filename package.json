@@ -20,5 +20,8 @@
     "gulp": "^3.9.1",
     "gulp-ruby-sass": "^2.1.1",
     "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "rupture": "^0.6.2"
   }
 }

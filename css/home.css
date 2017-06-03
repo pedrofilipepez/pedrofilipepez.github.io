@@ -73,7 +73,7 @@ body {
       @media (min-width: 768px) {
         body main .eu img {
           float: left;
-          width: 41.66667%; } }
+          width: 83.33333%; } }
       @media (min-width: 992px) {
         body main .eu img {
           float: left;
@@ -89,7 +89,30 @@ body {
     font-weight: 900;
     padding: 100px 0px 0px 0px;
     text-align: left; }
+    @media (max-width: 990px) {
+      body main h1 {
+        text-align: center;
+        font-size: 75px;
+        font-size: 4.6875rem; } }
   body main p {
     font-family: Raleway;
     font-weight: 500;
-    padding: 20px 50px 50px 250px; }
+    font-size: 43px;
+    font-size: 2.6875rem; }
+  body main Spam {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 768px) {
+      body main Spam {
+        float: left;
+        width: 83.33333%; } }
+    @media (min-width: 992px) {
+      body main Spam {
+        float: left;
+        width: 50%; } }
