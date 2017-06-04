@@ -47,6 +47,8 @@ table {
 body {
   background-image: url(../img/red.png);
   background-attachment: fixed; }
+  body header nav ul .home a {
+    color: #9e68b0; }
   body main .eu {
     height: auto;
     min-height: 600px; }
