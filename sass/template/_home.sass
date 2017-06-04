@@ -17,10 +17,10 @@ body
 			img
 				+make-row
 				+img-responsive
-				+make-sm-column(10)
+				+make-sm-column(12)
 				+make-md-column(5)
-				+make-sm-column-offset(1)
-				+make-md-column-offset(1)
+				+make-sm-column-offset(0)
+				+make-md-column-offset(0.5)
 				margin: 15px 0px 0px 0px
 				
 		h1
@@ -34,8 +34,10 @@ body
 		p 
 			font-family: Raleway
 			font-weight: 500
-			
 			+font-size(43px)
-		Spam
-			+make-sm-column(10)
+			
+				
+		.paragra
+			+make-sm-column(12)
 			+make-md-column(6)
+			+breakpoint(max-width 990px)

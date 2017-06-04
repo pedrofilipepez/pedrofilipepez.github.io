@@ -75,17 +75,17 @@ body {
       @media (min-width: 768px) {
         body main .eu img {
           float: left;
-          width: 83.33333%; } }
+          width: 100%; } }
       @media (min-width: 992px) {
         body main .eu img {
           float: left;
           width: 41.66667%; } }
       @media (min-width: 768px) {
         body main .eu img {
-          margin-left: 8.33333%; } }
+          margin-left: 0%; } }
       @media (min-width: 992px) {
         body main .eu img {
-          margin-left: 8.33333%; } }
+          margin-left: 4.16667%; } }
   body main h1 {
     font-family: Raleway;
     font-weight: 900;
@@ -101,7 +101,7 @@ body {
     font-weight: 500;
     font-size: 43px;
     font-size: 2.6875rem; }
-  body main Spam {
+  body main .paragra {
     position: relative;
     min-height: 1px;
     padding-left: 15px;
@@ -111,10 +111,98 @@ body {
     padding-left: 15px;
     padding-right: 15px; }
     @media (min-width: 768px) {
-      body main Spam {
+      body main .paragra {
         float: left;
-        width: 83.33333%; } }
+        width: 100%; } }
     @media (min-width: 992px) {
-      body main Spam {
+      body main .paragra {
         float: left;
         width: 50%; } }
+
+.container h1 {
+  text-align: center;
+  font-family: raleway; }
+.container .habilidades {
+  padding-top: 100px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  .container .habilidades:before, .container .habilidades:after {
+    content: " ";
+    display: table; }
+  .container .habilidades:after {
+    clear: both; }
+  @media (min-width: 992px) {
+    .container .habilidades {
+      float: left;
+      width: 83.33333%; } }
+  @media (min-width: 992px) {
+    .container .habilidades {
+      margin-left: 8.33333%; } }
+  .container .habilidades li {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 0px;
+    margin: 0px; }
+    @media (min-width: 992px) {
+      .container .habilidades li {
+        float: left;
+        width: 41.66667%; } }
+    @media (min-width: 992px) {
+      .container .habilidades li {
+        margin-left: 8.33333%; } }
+    .container .habilidades li img {
+      width: 35px;
+      height: 35px; }
+  .container .habilidades li.habilidade-0 .barra spam {
+    width: 0%; }
+  .container .habilidades li.habilidade-1 .barra spam {
+    width: 10%; }
+  .container .habilidades li.habilidade-2 .barra spam {
+    width: 20%; }
+  .container .habilidades li.habilidade-3 .barra spam {
+    width: 30%; }
+  .container .habilidades li.habilidade-4 .barra spam {
+    width: 40%; }
+  .container .habilidades li.habilidade-5 .barra spam {
+    width: 50%; }
+  .container .habilidades li.habilidade-6 .barra spam {
+    width: 60%; }
+  .container .habilidades li.habilidade-7 .barra spam {
+    width: 70%; }
+  .container .habilidades li.habilidade-8 .barra spam {
+    width: 80%; }
+  .container .habilidades li.habilidade-9 .barra spam {
+    width: 90%; }
+  .container .habilidades li.habilidade-10 .barra spam {
+    width: 100%; }
+  .container .habilidades .barra {
+    background-color: black;
+    -webkit-border-radius: 120px;
+    -moz-border-radius: 120px;
+    -ms-border-radius: 120px;
+    border-radius: 120px;
+    display: block;
+    width: 100%;
+    height: 15px;
+    margin: 10px 0px;
+    border: solid 1px;
+    border-color: black; }
+    .container .habilidades .barra spam {
+      display: block;
+      height: 100%;
+      -webkit-border-radius: 120px;
+      -moz-border-radius: 120px;
+      -ms-border-radius: 120px;
+      border-radius: 120px;
+      background-color: #4A69DE;
+      background-image: -webkit-gradient(linear, 90deg, from(#C76FD7), to(#4A69DE));
+      background-image: -webkit-linear-gradient(90deg, #C76FD7, #4A69DE);
+      background-image: -moz-linear-gradient(90deg, #C76FD7, #4A69DE);
+      background-image: -ms-linear-gradient(90deg, #C76FD7, #4A69DE);
+      background-image: -o-linear-gradient(90deg, #C76FD7, #4A69DE);
+      background-image: linear-gradient(90deg, #C76FD7, #4A69DE);
+      filter: progid:DXImageTransform.Microsoft.gradient(GradientType=$angle,StartColorStr='#C76FD7', EndColorStr='#4A69DE'); }
