@@ -44,64 +44,17 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-body {
-  background-image: url(../img/red.png);
-  background-attachment: fixed; }
-  body header nav ul .home a {
-    color: #9e68b0; }
-  body main .eu {
+body header nav .navega .home a {
+  color: #9e68b0; }
+body main .eu {
+  height: auto;
+  min-height: 600px; }
+  body main .eu img {
+    margin-left: -15px;
+    margin-right: -15px;
+    display: block;
+    max-width: 100%;
     height: auto;
-    min-height: 600px; }
-    body main .eu img {
-      margin-left: -15px;
-      margin-right: -15px;
-      display: block;
-      max-width: 100%;
-      height: auto;
-      position: relative;
-      min-height: 1px;
-      padding-left: 15px;
-      padding-right: 15px;
-      position: relative;
-      min-height: 1px;
-      padding-left: 15px;
-      padding-right: 15px;
-      margin: 15px 0px 0px 0px; }
-      body main .eu img:before, body main .eu img:after {
-        content: " ";
-        display: table; }
-      body main .eu img:after {
-        clear: both; }
-      @media (min-width: 768px) {
-        body main .eu img {
-          float: left;
-          width: 100%; } }
-      @media (min-width: 992px) {
-        body main .eu img {
-          float: left;
-          width: 41.66667%; } }
-      @media (min-width: 768px) {
-        body main .eu img {
-          margin-left: 0%; } }
-      @media (min-width: 992px) {
-        body main .eu img {
-          margin-left: 4.16667%; } }
-  body main h1 {
-    font-family: Raleway;
-    font-weight: 900;
-    padding: 100px 0px 0px 0px;
-    text-align: left; }
-    @media (max-width: 990px) {
-      body main h1 {
-        text-align: center;
-        font-size: 75px;
-        font-size: 4.6875rem; } }
-  body main p {
-    font-family: Raleway;
-    font-weight: 500;
-    font-size: 43px;
-    font-size: 2.6875rem; }
-  body main .paragra {
     position: relative;
     min-height: 1px;
     padding-left: 15px;
@@ -109,15 +62,59 @@ body {
     position: relative;
     min-height: 1px;
     padding-left: 15px;
-    padding-right: 15px; }
+    padding-right: 15px;
+    margin: 15px 0px 0px 0px; }
+    body main .eu img:before, body main .eu img:after {
+      content: " ";
+      display: table; }
+    body main .eu img:after {
+      clear: both; }
     @media (min-width: 768px) {
-      body main .paragra {
+      body main .eu img {
         float: left;
         width: 100%; } }
     @media (min-width: 992px) {
-      body main .paragra {
+      body main .eu img {
         float: left;
-        width: 50%; } }
+        width: 41.66667%; } }
+    @media (min-width: 768px) {
+      body main .eu img {
+        margin-left: 0%; } }
+    @media (min-width: 992px) {
+      body main .eu img {
+        margin-left: 4.16667%; } }
+body main h1 {
+  font-family: Raleway;
+  font-weight: 900;
+  padding: 100px 0px 0px 0px;
+  text-align: left; }
+  @media (max-width: 990px) {
+    body main h1 {
+      text-align: center;
+      font-size: 75px;
+      font-size: 4.6875rem; } }
+body main p {
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 43px;
+  font-size: 2.6875rem; }
+body main .paragra {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 768px) {
+    body main .paragra {
+      float: left;
+      width: 100%; } }
+  @media (min-width: 992px) {
+    body main .paragra {
+      float: left;
+      width: 50%; } }
 
 .container h1 {
   text-align: center;
@@ -139,7 +136,7 @@ body {
       width: 83.33333%; } }
   @media (min-width: 992px) {
     .container .habilidades {
-      margin-left: 8.33333%; } }
+      margin-left: 4.16667%; } }
   .container .habilidades li {
     position: relative;
     min-height: 1px;

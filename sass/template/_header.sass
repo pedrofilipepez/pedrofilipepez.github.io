@@ -1,78 +1,82 @@
-header
-	.container-fluid
-		
-		+make-xs-column(12)
-		+make-sm-column(12)
-		+make-md-column(12)
-		padding: 0px
-		margin-bottom: 110px
-		.logo
-			+clearfix
-			+gradient(90deg, #36D8D0 , #085e60)
-			margin: 0px 0px 0px 0px
-			background-attachment: fixed
-			img
-				+img-responsive
-				+make-xs-column-offset(0)
-				+make-sm-column-offset(1)
-				+make-md-column-offset(3)
-				+make-xs-column(12)
-				+make-sm-column(10)
-				+make-md-column(6)
+body
 
-				
-		nav
-			+breakpoint(max-width 991px)
-				display: none
-			+make-row
-
-			margin: 0px
-			background:
-				color: rgba(255,255,255,0.5)
-			padding: 5px 0px 2px 0px
-			ul
-				+make-sm-column(10)
-				+make-sm-column-offset(3)
-				+make-md-column(10)
-				+make-md-column-offset(2)
-				padding: 0px
-				margin: 0px
+	background-image: url(../img/red.png)
+	background-attachment: fixed
+	header
+		.container-fluid
 			
-
-					
-				li
-
-					margin: 13px 0px
-					display: inline-block
-					color:black
-					+make-xs-column-offset(1)
+			+make-xs-column(12)
+			+make-sm-column(12)
+			+make-md-column(12)
+			padding: 0px
+			margin-bottom: 110px
+			.logo
+				+clearfix
+				+gradient(90deg, #36D8D0 , #085e60)
+				margin: 0px 0px 0px 0px
+				background-attachment: fixed
+				img
+					+img-responsive
+					+make-xs-column-offset(0)
 					+make-sm-column-offset(1)
-					+make-md-column-offset(0.5)
-					+make-xs-column(2)
-					+make-sm-column(2)
-					+make-md-column(2)
+					+make-md-column-offset(3)
+					+make-xs-column(12)
+					+make-sm-column(10)
+					+make-md-column(6)
+
 					
-					
-					
+			nav
+				+breakpoint(max-width 991px)
+					display: none
+				+make-row
+
+				margin: 0px
+				background:
+					color: rgba(255,255,255,0.5)
+				padding: 5px 0px 2px 0px
+				ul
+					+make-sm-column(10)
+					+make-sm-column-offset(3)
+					+make-md-column(10)
+					+make-md-column-offset(2)
+					padding: 0px
+					margin: 0px
 				
+
+						
+					li
+
+						margin: 13px 0px
+						display: inline-block
+						color:black
+						+make-xs-column-offset(1)
+						+make-sm-column-offset(1)
+						+make-md-column-offset(0.5)
+						+make-xs-column(2)
+						+make-sm-column(2)
+						+make-md-column(2)
+						
+						
+						
 					
-					
-					a
+						
+						
+						a
 
-						color: #241d1b
-						font-family: Lobster
-						font-weight: 900
-						+font-size(45px)
-						padding: 10px
-						+transition(.9s)
-						&:hover
-							text-decoration: none
-							color: #3b3837
-							+font-size(42px)
+							color: #241d1b
+							font-family: Lobster
+							font-weight: 900
+							+font-size(45px)
+							padding: 10px
+							+transition(.9s)
+							&:hover
+								text-decoration: none
+								color: #3b3837
+								+font-size(42px)
 
 
-					 
+						 
 
-					
+						
 
-			
+				
