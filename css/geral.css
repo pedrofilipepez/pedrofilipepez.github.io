@@ -63,7 +63,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     padding: 0px;
-    margin-bottom: 110px; }
+    margin-bottom: 25px; }
     @media (min-width: 768px) {
       body header .container-fluid {
         float: left;
