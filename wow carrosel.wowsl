@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.7</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>false</Controls>
+            <FontSize>14</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>wow carrosel</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>glass_parallax</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/dodgy/</ImageTemplate>
+            <ImageTemplateName>Dodgy</ImageTemplateName>
+            <ImageWidth>480</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>false</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/Users/pedro/Desktop/wowslider.html</PublishFileName>
+            <PublishIndex>wowslider.html</PublishIndex>
+            <PublishPath>C:/Users/pedro/Desktop</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>0</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>0</ShowTooltips>
+            <SizeStyle>2</SizeStyle>
+            <SlideshowDelay>49</SlideshowDelay>
+            <SlideshowDuration>25</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>true</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#47c9af</TemplateColor>
+            <TemplateFont>Indie Flower</TemplateFont>
+            <TemplateName>dodgy</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Users/pedro/Desktop/page/Business Card Mockup Vol.1.png</url>
+                <title>Promoção</title>
+                <filesize>2162042</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/pedro/Desktop/page/[Divulgue voce tambem] Cartao laminado.jpg</url>
+                <title>Melhor Acambamento do Mercado</title>
+                <filesize>446130</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/pedro/Desktop/page/[Divulgue-se voce tambem] Flyers e Folhetos.jpg</url>
+                <title>[Divulgue-se voce tambem] Flyers e Folhetos</title>
+                <filesize>964188</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/pedro/Desktop/page/18143070_1164284167027776_2076921824_n.jpg-7.jpg</url>
+                <title>Cartões a Partir de R$88,00</title>
+                <filesize>520448</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>
