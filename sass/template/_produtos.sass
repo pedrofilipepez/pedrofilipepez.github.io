@@ -1,0 +1,99 @@
+body
+	
+	
+	header
+		nav
+			.navega
+				.home
+					a
+						
+	main
+
+		
+		.descricao
+			
+			height: auto
+			min-height: 600px
+			img
+				+make-row
+				+img-responsive
+				+make-sm-column(12)
+				+make-md-column(5)
+				+make-sm-column-offset(0)
+				+make-md-column-offset(0.5)
+				margin: 15px 0px 0px 0px
+				
+		h1
+			font-family: Raleway
+			font-weight: 900
+			padding: 350px 0px 0px 0px
+			text-align: left
+			+breakpoint(max-width 990px)
+				text-align: center
+				+font-size(50px)
+		h2
+			font-family: Raleway
+			font-weight: 900
+			display: block
+			+make-sm-column(12)
+			+make-md-column(5)
+			+make-sm-column-offset(0)
+			+make-md-column-offset(1.4)
+			+breakpoint(max-width 990px)
+				text-align: center
+				+font-size(50px)
+	
+				
+		.paragrafo
+			+make-sm-column(12)
+			+make-md-column(6)
+			p 
+			font-family: Raleway
+			font-weight: 500
+			+font-size(35px)	
+		.habil
+			padding: 100px 0px 0px 0px
+		.formatos
+			background-color: rgba(255,255,255,0.5)
+			+make-row
+			padding-bottom: 25px
+			
+			p
+				clear: both
+				+font-size(35px)
+				margin: 0px 0px 0px 75px
+				font-family: arial
+				+make-sm-column(12)
+				+make-md-column(12)
+				+make-sm-column-offset(0)
+				+make-md-column-offset(1.4)
+				+breakpoint(max-width 990px)
+					margin: 0px
+					+font-size(30px)
+			img
+				+img-responsive
+				margin-top: 15px
+				+make-md-column-offset(0)
+				+make-md-column(3)
+.botao
+	+clearfix
+	+make-row
+	border: solid 1px
+	text-align: center
+	margin-top: 0px
+	a
+		
+		+breakpoint(990px)
+			+font-size(70px)
+		color: #241d1b
+		font-family: Lobster
+		font-weight: 900
+		+font-size(50px)
+			
+		
+		+transition(.5s)
+		&:hover
+			text-decoration: none
+			color: #3b3837
+			+font-size(50px)
+		
