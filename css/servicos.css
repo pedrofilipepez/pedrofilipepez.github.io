@@ -190,12 +190,12 @@ main .servicos ul {
   font-family: Raleway;
   font-weight: 900;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-  margin-top: 150px; }
+  margin-top: 50px; }
   @media (max-width: 990px) {
     .arte {
       font-size: 50px;
       font-size: 3.125rem;
-      margin-top: 100px; } }
+      margin-top: 50px; } }
 
 /*!
  * ImageHover.css - http://www.imagehover.io

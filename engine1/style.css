@@ -444,13 +444,13 @@ _:-ms-input-placeholder, :root #wowslider-container1 a.ws_prev > span:before {li
 #wowslider-container1 .ws-title span{
 	font-size: 1.5em;
 }#wowslider-container1 .ws_images > ul{
-	animation: wsBasic 29.6s infinite;
-	-moz-animation: wsBasic 29.6s infinite;
-	-webkit-animation: wsBasic 29.6s infinite;
+	animation: wsBasic 23.6s infinite;
+	-moz-animation: wsBasic 23.6s infinite;
+	-webkit-animation: wsBasic 23.6s infinite;
 }
-@keyframes wsBasic{0%{left:-0%} 16.55%{left:-0%} 25%{left:-100%} 41.55%{left:-100%} 50%{left:-200%} 66.55%{left:-200%} 75%{left:-300%} 91.55%{left:-300%} }
-@-moz-keyframes wsBasic{0%{left:-0%} 16.55%{left:-0%} 25%{left:-100%} 41.55%{left:-100%} 50%{left:-200%} 66.55%{left:-200%} 75%{left:-300%} 91.55%{left:-300%} }
-@-webkit-keyframes wsBasic{0%{left:-0%} 16.55%{left:-0%} 25%{left:-100%} 41.55%{left:-100%} 50%{left:-200%} 66.55%{left:-200%} 75%{left:-300%} 91.55%{left:-300%} }
+@keyframes wsBasic{0%{left:-0%} 16.95%{left:-0%} 25%{left:-100%} 41.95%{left:-100%} 50%{left:-200%} 66.95%{left:-200%} 75%{left:-300%} 91.95%{left:-300%} }
+@-moz-keyframes wsBasic{0%{left:-0%} 16.95%{left:-0%} 25%{left:-100%} 41.95%{left:-100%} 50%{left:-200%} 66.95%{left:-200%} 75%{left:-300%} 91.95%{left:-300%} }
+@-webkit-keyframes wsBasic{0%{left:-0%} 16.95%{left:-0%} 25%{left:-100%} 41.95%{left:-100%} 50%{left:-200%} 66.95%{left:-200%} 75%{left:-300%} 91.95%{left:-300%} }
 
 #wowslider-container1 .ws_bulframe div div{
 	height: auto;
